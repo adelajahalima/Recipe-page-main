@@ -1,0 +1,73 @@
+*{
+    font-family: "Outfit", sans-serif;
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(30, 54%, 90%);
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.content {
+    width: calc(100% / 2);
+    background-color: white;
+    padding: 20px 20px 30px 20px;
+    box-shadow: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+.content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+h3 { 
+    color: hsl(14, 45%, 36%);
+}
+h1, h3, h4 {
+    font-family: "Young Serif", sans-serif;
+}
+li{
+    line-height: 1.5;
+}
+.preparation{
+    padding: 2px 10px 7px 10px;
+    background-color: hsl(327, 100%, 98%);
+    border-radius: 8px;
+}
+.preparation h4 {
+    color: hsl(332, 51%, 32%);
+    font-family: "Outfit", sans-serif;
+}
+
+.preparation .bulleted-list{
+    list-style-type: disc;
+}
+.preparation ul ::marker {
+    color: hsl(332, 51%, 32%);
+}
+.bullet ::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+table {
+    border-collapse: collapse;
+    width: 100%; 
+}
+td {
+    border-bottom: 1px solid black; /* Specify border for top of cell */
+    padding: 5px; /* Add padding for better spacing */
+}
+.alternate{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.attribution p{
+    text-align: center;
+}
